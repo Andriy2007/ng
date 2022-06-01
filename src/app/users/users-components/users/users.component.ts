@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {UserDataService} from "../../users-services/user-data.service";
 import {IUser} from "../../../models/IUser";
 import {ActivatedRoute} from "@angular/router";
-import {UserDataService} from "../../users-services/user-data.service";
 
 @Component({
   selector: 'app-users',
@@ -10,7 +10,7 @@ import {UserDataService} from "../../users-services/user-data.service";
 })
 export class UsersComponent implements OnInit {
 
-  users: IUser;
+  users: IUser[];
 
   constructor(private userDataService: UserDataService,
               private activatedRoute: ActivatedRoute) {

@@ -23,16 +23,16 @@ import {UserComponent} from "./users-components/user/user.component";
     UsersRoutingModule,
     HttpClientModule
   ],
-  exports: [
-    UsersComponent
-  ],
   providers: [
     UserDataService,
     UsersResolver,
     UserResolver,
     UserGuard,
+    // {
+    //   provide: 'usersResolve',
+    //   useValue:()=>{}
+    // }
   ]
 })
-
 export class UsersModule {
 }

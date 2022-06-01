@@ -1,8 +1,8 @@
 import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
-import {IUser} from "../../models/IUser";
 import {catchError, map} from "rxjs/operators";
 import {Observable, throwError} from "rxjs";
+import {IUser} from "../../models/IUser";
 
 
 

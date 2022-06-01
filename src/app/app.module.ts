@@ -15,10 +15,10 @@ import {UsersModule} from "./users/users.module";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    UsersModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
