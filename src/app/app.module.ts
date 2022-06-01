@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './app-components/home/home.component';
 import { MenuComponent } from './app-components/menu/menu.component';
 import {AppRoutingModule} from "./app-routing.module";
-import {UsersModule} from "./users/users.module";
 
 @NgModule({
   declarations: [
